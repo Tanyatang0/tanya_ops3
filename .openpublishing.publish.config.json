@@ -7,29 +7,31 @@
       "build_source_folder": "ab2",
       "build_output_subfolder": "ab2",
       "locale": "en-us",
-      "version": 0,
       "open_to_public_contributors": true,
       "type_mapping": {
         "Conceptual": "Content",
         "ManagedReference": "Content",
         "RestApi": "Content"
       },
-      "build_entry_point": "op"
+      "build_entry_point": "op",
+      "version": 0
     },
     {
       "docset_name": "tanyadocset3",
       "build_source_folder": "ab3",
       "build_output_subfolder": "ab3",
       "locale": "en-us",
-      "version": 0,
       "open_to_public_contributors": true,
       "type_mapping": {
         "Conceptual": "Content",
         "ManagedReference": "Content",
         "RestApi": "Content"
       },
-      "build_entry_point": "op"
+      "build_entry_point": "op",
+      "version": 0
     }
   ],
-  "skip_source_output_uploading": false
+  "continue_with_document_error": true,
+  "skip_source_output_uploading": false,
+  "need_generate_pdf_url_template": false
 }
